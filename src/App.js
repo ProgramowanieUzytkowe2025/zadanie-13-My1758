@@ -1,4 +1,5 @@
 import './App.css';
+<<<<<<< HEAD
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import TabelaKursowa from './pages/TabelaKursowa';
 import CenaZlota from './pages/CenaZlota';
@@ -20,3 +21,13 @@ return (
 </Router>
 );
 }
+=======
+
+export default function App() {
+  return (
+    <div>
+      Szablon aplikacji ReactJS
+    </div>
+  );
+}
+>>>>>>> 9ed10d6ed5fdd58d854aa1c190908f324c2c5854
