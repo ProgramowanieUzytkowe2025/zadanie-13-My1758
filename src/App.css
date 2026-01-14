@@ -1,0 +1,152 @@
+/* ===== RESET + PODSTAWY ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #222;
+}
+
+/* ===== MENU ===== */
+nav {
+  background-color: #003366;
+  padding: 14px 24px;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a.active {
+  border-bottom: 2px solid #ffcc00;
+}
+
+nav a:hover {
+  opacity: 0.85;
+}
+
+/* ===== STRONY ===== */
+.page {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+  margin-top: 0;
+  color: #003366;
+}
+
+h3 {
+  margin-top: 30px;
+  color: #003366;
+}
+
+/* ===== TABELA KURSÓW ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background-color: #e6eef7;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+}
+
+tbody tr:hover {
+  background-color: #f1f5fa;
+}
+
+table a {
+  color: #003366;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+table a:hover {
+  text-decoration: underline;
+}
+
+/* ===== FORMULARZE ===== */
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 320px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+input,
+select {
+  margin-top: 4px;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #003366;
+}
+
+/* ===== PRZYCISKI ===== */
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #003366;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #002244;
+}
+
+/* ===== KOMUNIKATY ===== */
+.result {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #006600;
+}
+
+.error {
+  margin-top: 16px;
+  color: #cc0000;
+  font-weight: 500;
+}
+
+/* ===== WYKRES ===== */
+canvas {
+  margin-top: 20px;
+  max-width: 100%;
+}
